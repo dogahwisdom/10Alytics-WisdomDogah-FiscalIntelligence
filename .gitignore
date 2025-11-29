@@ -4,26 +4,12 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual Environment
 venv/
-ENV/
 env/
+ENV/
+.venv
 
 # IDE
 .vscode/
@@ -32,27 +18,16 @@ env/
 *.swo
 *~
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Data files (uncomment if you don't want to track data)
-# *.xlsx
-# *.csv
-# *.json
-
-# Reports and outputs
-reports/plots/*.png
-reports/plots/*.html
-reports/*.json
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Presentation outputs
-presentation/*.pptx
-presentation/*.pdf
+# Jupyter
+.ipynb_checkpoints
+
+# Data (if sensitive)
+# *.csv
+# *.xlsx
 
 # Logs
 *.log
-

@@ -1,0 +1,135 @@
+{
+  "basic_statistics": {
+    "shape": [
+      23782,
+      9
+    ],
+    "numeric_summary": {
+      "amount": {
+        "count": 23782.0,
+        "mean": 2910044.98604263,
+        "std": 25916364.471952487,
+        "min": -13501819.0,
+        "25%": 8.3,
+        "50%": 129.57,
+        "75%": 53457.93,
+        "max": 763372515.8
+      }
+    },
+    "categorical_summary": {
+      "country": {
+        "unique_count": 14,
+        "top_values": {
+          "South Africa": 5108,
+          "Kenya": 2904,
+          "Nigeria": 2855,
+          "Ghana": 2677,
+          "Egypt": 1843
+        },
+        "mode": "South Africa"
+      },
+      "indicator": {
+        "unique_count": 27,
+        "top_values": {
+          "Inflation Rate ": 2879,
+          "Consumer Price Index (CPI)": 2850,
+          "Interest Rate": 2652,
+          "Revenue": 1752,
+          "Exports": 1611
+        },
+        "mode": "Inflation Rate "
+      },
+      "source": {
+        "unique_count": 28,
+        "top_values": {
+          "Central Bank of West African States": 3295,
+          "South African Reserve Bank": 3132,
+          "Central Bank of Kenya": 2491,
+          "Bank of Ghana": 1919,
+          "Department of Statistics, South Africa.": 1897
+        },
+        "mode": "Central Bank of West African States"
+      },
+      "unit": {
+        "unique_count": 10,
+        "top_values": {
+          "Million": 9986,
+          "%": 7877,
+          "Points": 2548,
+          "Billion": 1890,
+          "Persons": 474
+        },
+        "mode": "Million"
+      },
+      "currency": {
+        "unique_count": 13,
+        "top_values": {
+          "ZAR": 13587,
+          "Ksh": 2369,
+          "NGN": 1884,
+          "XOF": 1500,
+          "USD": 1271
+        },
+        "mode": "ZAR"
+      },
+      "frequency": {
+        "unique_count": 3,
+        "top_values": {
+          "Monthly": 16850,
+          "Yearly": 3708,
+          "Quarterly": 3224
+        },
+        "mode": "Monthly"
+      },
+      "country_code": {
+        "unique_count": 14,
+        "top_values": {
+          "ZAF": 5108,
+          "KEN": 2904,
+          "NGA": 2855,
+          "GHA": 2677,
+          "EGY": 1843
+        },
+        "mode": "ZAF"
+      }
+    },
+    "memory_usage_mb": 11.108858108520508
+  },
+  "distributions": {
+    "amount": {
+      "mean": 2910044.98604263,
+      "median": 129.57,
+      "std": 25916364.471952487,
+      "skewness": 15.678908399881912,
+      "kurtosis": 297.60942782939503,
+      "distribution_type": "Right-skewed (positive skew)"
+    }
+  },
+  "correlations": "Empty DataFrame\nColumns: []\nIndex: []",
+  "outliers": {
+    "amount": {
+      "count": 5048,
+      "percentage": 21.226137414851568,
+      "outlier_values": [
+        -98886.0,
+        -134138.0,
+        -165689.0,
+        -246853.0,
+        -254715.0,
+        -284314.0,
+        -366401.0,
+        -425385.0,
+        -423019.0,
+        -408509.0
+      ]
+    }
+  },
+  "top_insights": [
+    {
+      "rank": 1,
+      "category": "Distribution",
+      "insight": "amount shows significant skewness (15.68), indicating non-normal distribution",
+      "impact": "Medium - may require transformation for modeling"
+    }
+  ]
+}

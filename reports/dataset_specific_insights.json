@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Country Analysis",
+    "title": "Top Countries by Fiscal Activity",
+    "finding": "Rwanda has the highest total fiscal activity (42,045,274,314), followed by Nigeria (8,251,808,799)",
+    "impact": "High - Identifies key fiscal players requiring focused policy attention"
+  },
+  {
+    "type": "Indicator Analysis",
+    "title": "Most Tracked Fiscal Indicators",
+    "finding": "Inflation Rate  is the most frequently tracked indicator (2868 records)",
+    "impact": "Medium - Shows priority areas for fiscal monitoring"
+  },
+  {
+    "type": "Temporal Analysis",
+    "title": "Long-Term Fiscal Trends",
+    "finding": "Fiscal metrics show increasing trend: recent average (3,802,677) vs historical (422,623)",
+    "impact": "High - Critical for understanding fiscal evolution over 65 years"
+  },
+  {
+    "type": "Data Quality",
+    "title": "Data Completeness",
+    "finding": "0.3% of records have missing Amount values, indicating data collection gaps",
+    "impact": "Medium - Affects reliability of analysis, requires data quality initiatives"
+  },
+  {
+    "type": "Coverage Analysis",
+    "title": "Fiscal Indicator Coverage",
+    "finding": "South Africa tracks the most diverse fiscal indicators (20 different indicators)",
+    "impact": "Medium - Shows comprehensive fiscal monitoring capabilities"
+  }
+]

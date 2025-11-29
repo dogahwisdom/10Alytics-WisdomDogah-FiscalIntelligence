@@ -1,0 +1,128 @@
+{
+  "original_summary": {
+    "total_rows": 23784,
+    "total_columns": 9,
+    "column_names": [
+      "Country",
+      "Indicator",
+      "Source",
+      "Unit",
+      "Currency",
+      "Frequency",
+      "Country Code",
+      "Time",
+      "Amount"
+    ],
+    "data_types": {
+      "Country": "object",
+      "Indicator": "object",
+      "Source": "object",
+      "Unit": "object",
+      "Currency": "object",
+      "Frequency": "object",
+      "Country Code": "object",
+      "Time": "datetime64[ns]",
+      "Amount": "object"
+    },
+    "missing_values": {
+      "Country": 0,
+      "Indicator": 0,
+      "Source": 0,
+      "Unit": 22,
+      "Currency": 10503,
+      "Frequency": 0,
+      "Country Code": 0,
+      "Time": 4,
+      "Amount": 59
+    },
+    "missing_percentage": {
+      "Country": 0.0,
+      "Indicator": 0.0,
+      "Source": 0.0,
+      "Unit": 0.09249915909855365,
+      "Currency": 44.159939455095866,
+      "Frequency": 0.0,
+      "Country Code": 0.0,
+      "Time": 0.016818028927009756,
+      "Amount": 0.2480659266733939
+    },
+    "duplicate_rows": "2",
+    "memory_usage_mb": 11.223987579345703,
+    "numeric_columns": [],
+    "categorical_columns": [
+      "Country",
+      "Indicator",
+      "Source",
+      "Unit",
+      "Currency",
+      "Frequency",
+      "Country Code",
+      "Amount"
+    ],
+    "date_columns": [
+      "Time"
+    ]
+  },
+  "cleaning_report": {
+    "final_shape": [
+      23782,
+      9
+    ],
+    "operations": [
+      {
+        "operation": "standardize_column_names",
+        "details": {
+          "Country": "country",
+          "Indicator": "indicator",
+          "Source": "source",
+          "Unit": "unit",
+          "Currency": "currency",
+          "Frequency": "frequency",
+          "Country Code": "country_code",
+          "Time": "time",
+          "Amount": "amount"
+        }
+      },
+      {
+        "operation": "convert_to_datetime",
+        "column": "time"
+      },
+      {
+        "operation": "convert_to_numeric",
+        "column": "amount"
+      },
+      {
+        "operation": "remove_duplicates",
+        "removed_rows": 2
+      },
+      {
+        "operation": "handle_missing_values",
+        "strategy": "auto",
+        "remaining_missing": "0"
+      }
+    ],
+    "remaining_missing": {
+      "country": 0,
+      "indicator": 0,
+      "source": 0,
+      "unit": 0,
+      "currency": 0,
+      "frequency": 0,
+      "country_code": 0,
+      "time": 0,
+      "amount": 0
+    },
+    "final_columns": [
+      "country",
+      "indicator",
+      "source",
+      "unit",
+      "currency",
+      "frequency",
+      "country_code",
+      "time",
+      "amount"
+    ]
+  },
+  "processing_successful": true
+}
